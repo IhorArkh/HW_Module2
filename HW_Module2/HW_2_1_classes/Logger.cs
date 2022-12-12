@@ -25,7 +25,7 @@ namespace HW_2_1_classes
             {
                 if (_logs[i].Status == LogLevel)
                 {
-                    Console.WriteLine($"{_logs[i].DateTime}: {_logs[i].Status}: {_logs[i].Message}");
+                    Console.WriteLine($"{_logs[i].DateTime} --- {_logs[i].Status} --- {_logs[i].Message}");
                 }
             }
         }
