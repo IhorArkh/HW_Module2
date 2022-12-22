@@ -9,5 +9,10 @@ namespace HW_2_3_vehicle.Trains
     public class CargoTrain : Train
     {
         public string CargoType { get; }
+
+        public CargoTrain(int maxSpeed, int weight, int numOfWagons, string cargoType) : base (maxSpeed, weight, numOfWagons)
+        {
+            CargoType = cargoType;
+        }
     }
 }

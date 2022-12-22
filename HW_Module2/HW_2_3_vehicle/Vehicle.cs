@@ -10,5 +10,11 @@ namespace HW_2_3_vehicle
     {
         public int MaxSpeed { get; }
         public int Weight { get; }
+
+        public Vehicle(int maxSpeed, int weight)
+        {
+            MaxSpeed = maxSpeed;
+            Weight = weight;
+        }
     }
 }
