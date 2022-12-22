@@ -13,5 +13,9 @@ namespace HW_2_3_vehicle.Trains
         {
             ClassOfTrain= classOfTrain;
         }
+        public override void ShowInfo()
+        {
+            Console.WriteLine($"Speed:{MaxSpeed}km/h, Weight:{Weight}kg, Wagons:{NumOfWagons}, Train class:{ClassOfTrain}class");
+        }
     }
 }

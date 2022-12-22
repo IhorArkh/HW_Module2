@@ -14,5 +14,10 @@ namespace HW_2_3_vehicle.AirPlanes
         {
             FuelTankVol= fuelTankVol;
         }
+
+        public override void ShowInfo()
+        {
+            Console.WriteLine($"Speed:{MaxSpeed}km/h, Weight:{Weight}kg, Fuel Tank Volume:{FuelTankVol}");
+        }
     }
 }

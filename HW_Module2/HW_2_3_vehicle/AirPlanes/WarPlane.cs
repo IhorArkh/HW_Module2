@@ -16,5 +16,10 @@ namespace HW_2_3_vehicle.AirPlanes
         {
             WeaponType = weaponType;
         }
+
+        public override void ShowInfo()
+        {
+            Console.WriteLine($"Speed:{MaxSpeed}km/h, Weight:{Weight}kg, Fuel Tank Volume:{FuelTankVol}L, Type of weapons:{WeaponType}");
+        }
     }
 }

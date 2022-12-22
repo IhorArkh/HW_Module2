@@ -16,6 +16,11 @@ namespace HW_2_3_vehicle
             NameOfTyres= nameOfTyres;
         }
 
+        public override void ShowInfo()
+        {
+            Console.WriteLine($"Speed:{MaxSpeed}km/h, Weight:{Weight}kg, Brand:{Brand}, Doors:{NumOfDoors}, Allowed to drive on roads:{AllowedToDriveOnRoads}, Tyres:{NameOfTyres}");
+        }
+
 
     }
 }

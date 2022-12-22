@@ -16,5 +16,8 @@ namespace HW_2_3_vehicle
             MaxSpeed = maxSpeed;
             Weight = weight;
         }
+
+        public abstract void ShowInfo();
+
     }
 }

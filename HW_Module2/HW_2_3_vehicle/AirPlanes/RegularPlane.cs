@@ -15,5 +15,9 @@ namespace HW_2_3_vehicle.AirPlanes
         {
             IsWaterIncluded = isWaterIncluded;
         }
+        public override void ShowInfo()
+        {
+            Console.WriteLine($"Speed:{MaxSpeed}km/h, Weight:{Weight}kg, Fuel Tank Volume:{FuelTankVol}L, Number of seats:{NumOfSeats}, Is water included:{IsWaterIncluded}");
+        }
     }
 }

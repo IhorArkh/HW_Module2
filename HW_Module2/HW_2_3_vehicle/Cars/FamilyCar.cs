@@ -15,5 +15,9 @@ namespace HW_2_3_vehicle
         {
             RateOfSafety = rateOfSafety;
         }
+        public override void ShowInfo()
+        {
+            Console.WriteLine($"Speed:{MaxSpeed}km/h, Weight:{Weight}kg, Brand:{Brand}, Doors:{NumOfDoors}, Rate of safety:{RateOfSafety}");
+        }
     }
 }

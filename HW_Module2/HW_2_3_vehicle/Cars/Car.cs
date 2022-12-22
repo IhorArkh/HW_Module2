@@ -15,5 +15,9 @@ namespace HW_2_3_vehicle
             Brand = brand;
             NumOfDoors = numOfDoors;
         }
+        public override void ShowInfo()
+        {
+            Console.WriteLine($"Speed:{MaxSpeed}km/h, Weight:{Weight}kg, Brand:{Brand}, Number of doors:{NumOfDoors}");
+        }
     }
 }

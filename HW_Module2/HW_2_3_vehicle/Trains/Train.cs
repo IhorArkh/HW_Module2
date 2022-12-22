@@ -14,5 +14,10 @@ namespace HW_2_3_vehicle.Trains
         {
             NumOfWagons= numOfWagons;
         }
+
+        public override void ShowInfo()
+        {
+            Console.WriteLine($"Speed:{MaxSpeed}km/h, Weight:{Weight}kg, Wagons:{NumOfWagons}");
+        }
     }
 }
