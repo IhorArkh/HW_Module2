@@ -10,5 +10,10 @@ namespace HW_2_3_vehicle
     {
         public string Brand { get; }
         public int NumOfDoors { get; }
+        public Car(int maxSpeed, int weight, string brand, int numOfDoors) : base(maxSpeed, weight)
+        {
+            Brand = brand;
+            NumOfDoors = numOfDoors;
+        }
     }
 }

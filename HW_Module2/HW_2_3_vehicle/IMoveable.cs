@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace HW_2_3_vehicle
 {
-    internal interface Interface1
+    public interface IMoveable
     {
+        void Move();
     }
 }
