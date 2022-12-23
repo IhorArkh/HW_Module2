@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HW_2_3_vehicle
 {
-    public class SportCar : Car
+    public class SportCar : Car, IMoveable
     {
         public bool AllowedToDriveOnRoads { get; }
 
@@ -18,6 +18,10 @@ namespace HW_2_3_vehicle
         public override void ShowInfo()
         {
             Console.WriteLine($"Speed:{MaxSpeed}km/h, Weight:{Weight}kg, Brand:{Brand}, Doors:{NumOfDoors}, Allowed to drive on roads:{AllowedToDriveOnRoads}");
+        }
+        public void Move()
+        {
+            Console.WriteLine("I am driving fast!");
         }
     }
 }

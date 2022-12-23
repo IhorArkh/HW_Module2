@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HW_2_3_vehicle.Trains
 {
-    public class Train : Vehicle
+    public class Train : Vehicle, IMoveable
     {
         public int NumOfWagons { get; }
 
@@ -18,6 +18,10 @@ namespace HW_2_3_vehicle.Trains
         public override void ShowInfo()
         {
             Console.WriteLine($"Speed:{MaxSpeed}km/h, Weight:{Weight}kg, Wagons:{NumOfWagons}");
+        }
+        public void Move()
+        {
+            Console.WriteLine("I am moving on rails!");
         }
     }
 }

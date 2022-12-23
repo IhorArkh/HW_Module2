@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HW_2_3_vehicle.AirPlanes
 {
-    public class WarPlane : Airplane
+    public class WarPlane : Airplane, IMoveable
     {
         public string WeaponType { get; }
 
@@ -20,6 +20,11 @@ namespace HW_2_3_vehicle.AirPlanes
         public override void ShowInfo()
         {
             Console.WriteLine($"Speed:{MaxSpeed}km/h, Weight:{Weight}kg, Fuel Tank Volume:{FuelTankVol}L, Type of weapons:{WeaponType}");
+        }
+
+        public void Move()
+        {
+            Console.WriteLine("I am flying and destroying enemies!");
         }
     }
 }

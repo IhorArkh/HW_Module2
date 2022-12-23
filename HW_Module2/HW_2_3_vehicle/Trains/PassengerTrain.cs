@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HW_2_3_vehicle.Trains
 {
-    public class PassengerTrain : Train
+    public class PassengerTrain : Train, IMoveable
     {
         public int ClassOfTrain { get; }
         public PassengerTrain(int maxSpeed, int weight, int numOfWagons, int classOfTrain) : base(maxSpeed, weight, numOfWagons)
@@ -16,6 +16,10 @@ namespace HW_2_3_vehicle.Trains
         public override void ShowInfo()
         {
             Console.WriteLine($"Speed:{MaxSpeed}km/h, Weight:{Weight}kg, Wagons:{NumOfWagons}, Train class:{ClassOfTrain}class");
+        }
+        public void Move()
+        {
+            Console.WriteLine("I am moving on rails with passengers!");
         }
     }
 }

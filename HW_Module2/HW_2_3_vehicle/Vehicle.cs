@@ -18,6 +18,5 @@ namespace HW_2_3_vehicle
         }
 
         public abstract void ShowInfo();
-
     }
 }

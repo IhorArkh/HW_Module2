@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HW_2_3_vehicle.AirPlanes
 {
-    public class RegularPlane : PassengerPlane
+    public class RegularPlane : PassengerPlane, IMoveable
     {
         public bool IsWaterIncluded { get; }
 
@@ -18,6 +18,10 @@ namespace HW_2_3_vehicle.AirPlanes
         public override void ShowInfo()
         {
             Console.WriteLine($"Speed:{MaxSpeed}km/h, Weight:{Weight}kg, Fuel Tank Volume:{FuelTankVol}L, Number of seats:{NumOfSeats}, Is water included:{IsWaterIncluded}");
+        }
+        public void Move()
+        {
+            Console.WriteLine("I am flying with passengers!");
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HW_2_3_vehicle
 {
-    public class Car : Vehicle
+    public class Car : Vehicle, IMoveable
     {
         public string Brand { get; }
         public int NumOfDoors { get; }
@@ -18,6 +18,11 @@ namespace HW_2_3_vehicle
         public override void ShowInfo()
         {
             Console.WriteLine($"Speed:{MaxSpeed}km/h, Weight:{Weight}kg, Brand:{Brand}, Number of doors:{NumOfDoors}");
+        }
+
+        public void Move()
+        {
+            Console.WriteLine("I am driving!");
         }
     }
 }
