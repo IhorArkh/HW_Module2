@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HW_2_3_vehicle.AirPlanes
 {
-    public class PrivateJet : PassengerPlane, IMoveable
+    public class PrivateJet : PassengerPlane
     {
         public string OwnerName { get; }
 
@@ -20,7 +20,8 @@ namespace HW_2_3_vehicle.AirPlanes
         {
             Console.WriteLine($"Speed:{MaxSpeed}km/h, Weight:{Weight}kg, Fuel Tank Volume:{FuelTankVol}L, Number of seats:{NumOfSeats}, Name of owner:{OwnerName}");
         }
-        public void Move()
+
+        public override void Move()
         {
             Console.WriteLine("I am flying with my owner!");
         }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HW_2_3_vehicle
 {
-    public class RallyCar : SportCar, IMoveable
+    public class RallyCar : SportCar
     {
         public string NameOfTyres { get; }
 
@@ -21,7 +21,7 @@ namespace HW_2_3_vehicle
             Console.WriteLine($"Speed:{MaxSpeed}km/h, Weight:{Weight}kg, Brand:{Brand}, Doors:{NumOfDoors}, Allowed to drive on roads:{AllowedToDriveOnRoads}, Tyres:{NameOfTyres}");
         }
 
-        public void Move()
+        public override void Move()
         {
             Console.WriteLine("I am driving in WRC race!");
         }

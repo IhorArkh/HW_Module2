@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace HW_2_3_vehicle
 {
-    public class Car : Vehicle, IMoveable
+    public class Car : Vehicle
     {
         public string Brand { get; }
+
         public int NumOfDoors { get; }
+
         public Car(int maxSpeed, int weight, string brand, int numOfDoors) : base(maxSpeed, weight)
         {
             Brand = brand;
@@ -20,7 +22,7 @@ namespace HW_2_3_vehicle
             Console.WriteLine($"Speed:{MaxSpeed}km/h, Weight:{Weight}kg, Brand:{Brand}, Number of doors:{NumOfDoors}");
         }
 
-        public void Move()
+        public override void Move()
         {
             Console.WriteLine("I am driving!");
         }

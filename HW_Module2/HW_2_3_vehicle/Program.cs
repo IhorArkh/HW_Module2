@@ -20,6 +20,33 @@ namespace HW_2_3_vehicle
             CargoTrain cargoTrain = new CargoTrain(90, 150000, 20, "Oil");
             PassengerTrain intercity = new PassengerTrain(180, 30000, 12, 2);
             Train train = new Train(130, 90000, 15);
+
+            Garage garage = new Garage();
+
+            garage.AddToGarage(airplane);
+            garage.AddToGarage(passengerPlane);
+            garage.AddToGarage(businessJet);
+            garage.AddToGarage(boeing737);
+            garage.AddToGarage(warPlane);
+            garage.AddToGarage(infinityQ50);
+            garage.AddToGarage(f1Car);
+            garage.AddToGarage(citroenC5);
+            garage.AddToGarage(subaruImpreza);
+            garage.AddToGarage(porsche911);
+            garage.AddToGarage(cargoTrain);
+            garage.AddToGarage(intercity);
+            garage.AddToGarage(train);
+
+            Console.WriteLine("Now in garage:");
+            garage.ShowGarage();
+            Console.WriteLine("\nVehicles sorted by weight:");
+            garage.SortGarage();
+            garage.ShowGarage();
+            Console.WriteLine("\nMoving all vehicles from garage:");
+            garage.MoveVehicleFromGarage();
+            Console.WriteLine();
+            garage.FindBySpeed();
+            Console.WriteLine();
         }
     }
 }   

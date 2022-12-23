@@ -6,15 +6,13 @@
       <HashCode>AAAAAAAAAIAIAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>AirPlanes\Airplane.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="HW_2_3_vehicle.AirPlanes.PassengerPlane" Collapsed="true">
     <Position X="7.75" Y="7.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAABAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAIAAAAAABAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>AirPlanes\PassengerPlane.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="HW_2_3_vehicle.AirPlanes.PrivateJet" Collapsed="true">
     <Position X="6.75" Y="9.25" Width="1.5" />
@@ -22,7 +20,6 @@
       <HashCode>AAAAAAAAAIAAAAAABAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>AirPlanes\PrivateJet.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="HW_2_3_vehicle.AirPlanes.RegularPlane" Collapsed="true">
     <Position X="9" Y="9.25" Width="1.5" />
@@ -30,7 +27,6 @@
       <HashCode>AAAAAAAAAIAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>AirPlanes\RegularPlane.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="HW_2_3_vehicle.AirPlanes.WarPlane" Collapsed="true">
     <Position X="4.5" Y="7.75" Width="1.5" />
@@ -38,7 +34,6 @@
       <HashCode>AgAAAAAAAIAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>AirPlanes\WarPlane.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="HW_2_3_vehicle.Car" Collapsed="true">
     <Position X="13.5" Y="6.25" Width="1.5" />
@@ -46,7 +41,6 @@
       <HashCode>AAAAAAAAAIAAAAAABAAAAAAAAAAAAAAAAAAAAAAJAAA=</HashCode>
       <FileName>Cars\Car.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="HW_2_3_vehicle.F1Car" Collapsed="true">
     <Position X="13.5" Y="9.25" Width="1.5" />
@@ -54,7 +48,6 @@
       <HashCode>AAIAAAAAAIAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Cars\F1Car.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="HW_2_3_vehicle.FamilyCar" Collapsed="true">
     <Position X="15.75" Y="7.75" Width="1.5" />
@@ -62,7 +55,6 @@
       <HashCode>AAAAAAAAAIAAAAAABAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
       <FileName>Cars\FamilyCar.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="HW_2_3_vehicle.RallyCar" Collapsed="true">
     <Position X="11.25" Y="9.25" Width="1.5" />
@@ -70,7 +62,6 @@
       <HashCode>AAAAAAAAAIAAAAAQBAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Cars\RallyCar.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="HW_2_3_vehicle.SportCar" Collapsed="true">
     <Position X="12.25" Y="7.75" Width="1.5" />
@@ -78,7 +69,6 @@
       <HashCode>AAAAAAAAAIAAAAAABAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Cars\SportCar.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="HW_2_3_vehicle.Program" Collapsed="true">
     <Position X="12.5" Y="4" Width="1.5" />
@@ -90,40 +80,31 @@
   <Class Name="HW_2_3_vehicle.Vehicle" Collapsed="true">
     <Position X="12.25" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAABAAEAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAIAAAAQABAAEAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Vehicle.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="HW_2_3_vehicle.Trains.CargoTrain" Collapsed="true">
     <Position X="18" Y="7.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAIAAAAAABAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Trains\CargoTrain.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="HW_2_3_vehicle.Trains.PassengerTrain" Collapsed="true">
     <Position X="20.25" Y="7.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAABAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAIAAAAAABAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Trains\PassengerTrain.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="HW_2_3_vehicle.Trains.Train" Collapsed="true">
     <Position X="19" Y="6.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <HashCode>AAAAAAAAAIAAAAAABAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
       <FileName>Trains\Train.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
-  <Interface Name="HW_2_3_vehicle.IMoveable" Collapsed="true">
-    <Position X="15.5" Y="4" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>IMoveable.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HW_2_3_vehicle.AirPlanes
 {
-    public class PassengerPlane : Airplane, IMoveable
+    public class PassengerPlane : Airplane
     {
         public int NumOfSeats { get; }
 
@@ -20,9 +20,10 @@ namespace HW_2_3_vehicle.AirPlanes
         {
             Console.WriteLine($"Speed:{MaxSpeed}km/h, Weight:{Weight}kg, Fuel Tank Volume:{FuelTankVol}L, Number of seats:{NumOfSeats}");
         }
-        //public void Move()
-        //{
-        //    Console.WriteLine("I am flying with people!");
-        //}
+
+        public override void Move()
+        {
+            Console.WriteLine("I am flying with people!");
+        }
     }
 }

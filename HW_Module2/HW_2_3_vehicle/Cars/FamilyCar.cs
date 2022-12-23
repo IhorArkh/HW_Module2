@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HW_2_3_vehicle
 {
-    public class FamilyCar : Car, IMoveable
+    public class FamilyCar : Car
     {
         public int RateOfSafety { get; }
 
@@ -15,12 +15,13 @@ namespace HW_2_3_vehicle
         {
             RateOfSafety = rateOfSafety;
         }
+
         public override void ShowInfo()
         {
             Console.WriteLine($"Speed:{MaxSpeed}km/h, Weight:{Weight}kg, Brand:{Brand}, Doors:{NumOfDoors}, Rate of safety:{RateOfSafety}");
         }
 
-        public void Move()
+        public override void Move()
         {
             Console.WriteLine("I am driving with big family!");
         }
