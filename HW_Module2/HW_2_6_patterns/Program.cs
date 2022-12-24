@@ -44,6 +44,19 @@
             // FactoryMethod
             new Client().Main();
 
+            // Bridge
+            ClientBridge client = new ClientBridge();
+
+            Abstraction abstraction;
+            abstraction = new Abstraction(new ConcreteImplementationA());
+            client.ClientCode(abstraction);
+
+            Console.WriteLine();
+
+            abstraction = new ExtendedAbstraction(new ConcreteImplementationB());
+            client.ClientCode(abstraction);
+
+            //
         }
     }
 }
