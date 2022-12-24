@@ -21,8 +21,6 @@
             {
                 singleton1.ShowInfo();
             }
-
-            // 
         }
     }
 }
