@@ -10,7 +10,6 @@
             Console.WriteLine("      ID#: {0:d}", p.IdInfo.IdNumber);
         }
 
-
         static void Main(string[] args)
         {
             // Singleton
@@ -70,7 +69,26 @@
             Console.WriteLine("Subchain: Squirrel > Dog\n");
             ClientCOR.ClientCode(squirrel);
 
-            //
+            //Builder
+            var director = new Director();
+            var builder = new ConcreteBuilder();
+            director.Builder = builder;
+
+            Console.WriteLine("Standard basic product:");
+            director.BuildMinimalViableProduct();
+            Console.WriteLine(builder.GetProduct().ListParts());
+
+            Console.WriteLine("Standard full featured product:");
+            director.BuildFullFeaturedProduct();
+            Console.WriteLine(builder.GetProduct().ListParts());
+
+            Console.WriteLine("Custom product:");
+            builder.BuildPartA();
+            builder.BuildPartC();
+            Console.Write(builder.GetProduct().ListParts());
+
+            //Abstract Factory
+            new ClientAF().Main();
         }
     }
 }
