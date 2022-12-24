@@ -41,6 +41,9 @@
             Console.WriteLine("   p3 instance values:");
             DisplayValues(p3);
 
+            // FactoryMethod
+            new Client().Main();
+
         }
     }
 }
