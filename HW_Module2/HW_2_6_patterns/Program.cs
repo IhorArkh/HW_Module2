@@ -56,6 +56,20 @@
             abstraction = new ExtendedAbstraction(new ConcreteImplementationB());
             client.ClientCode(abstraction);
 
+            // Chain of responsibility
+            var monkey = new MonkeyHandler();
+            var squirrel = new SquirrelHandler();
+            var dog = new DogHandler();
+
+            monkey.SetNext(squirrel).SetNext(dog);
+
+            Console.WriteLine("Chain: Monkey > Squirrel > Dog\n");
+            ClientCOR.ClientCode(monkey);
+            Console.WriteLine();
+
+            Console.WriteLine("Subchain: Squirrel > Dog\n");
+            ClientCOR.ClientCode(squirrel);
+
             //
         }
     }
