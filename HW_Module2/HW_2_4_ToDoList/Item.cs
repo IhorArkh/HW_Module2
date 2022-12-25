@@ -8,7 +8,7 @@ namespace HW_2_4_ToDoList
 {
     internal class Item : AbstractToDo
     {
-        public override AbstractToDo CreateToDo() // можно попробовать поменять тип возвр значения если не будет работать 
+        public override AbstractToDo CreateToDo() 
         {
             Item item = new Item();
             Console.WriteLine("Add text please:");

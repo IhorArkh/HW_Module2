@@ -82,12 +82,7 @@ namespace HW_2_4_ToDoList
             {
                 if (_toDo[i].Id == numOfToDo)
                 {
-                    //for (int y = _toDo[i + 1].Id; y < _toDo.Length; y++)
-                    //{
-                    //    _toDo[i] = _toDo[i - 1];
-                    //}
                     _toDo[i] = null;
-                    break;
                 }
             }
         }

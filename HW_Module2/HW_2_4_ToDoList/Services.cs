@@ -14,7 +14,7 @@ namespace HW_2_4_ToDoList
             string currentUserChoice;
             do
             {
-                Console.WriteLine("What do you want?(add-item/add-reminder/add-reminder-rc/get all/delete/update/exit)");
+                Console.WriteLine("\nWhat do you want?(add-item/add-reminder/add-reminder-rc/get all/delete/update/exit)");
                 currentUserChoice = Console.ReadLine();
                 switch (currentUserChoice)
                 {
