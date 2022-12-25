@@ -20,7 +20,7 @@ namespace HW_2_4_ToDoList
 
         public override void ShowToDo()
         {
-            Console.WriteLine($"ID:{Id}, Text:{Text}, Remind:{Time}");
+            Console.WriteLine($"ID:{Id}  Text:{Text}  Remind:{Time}");
         }
     }
 }

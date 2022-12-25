@@ -14,29 +14,52 @@ namespace HW_2_4_ToDoList
 
         public void AddItem()
         {
-            AbstractToDo item = new Item();
-            item = item.CreateToDo();
-            item.Id = _counter + 1;
-            _toDo[_counter] = item;
-            _counter++;
+            if (_counter == _toDo.Length)
+            {
+                Console.WriteLine($"ERROR: You cant add more than {_toDo.Length} ToDos!");
+            }
+            else
+            {
+                AbstractToDo item = new Item();
+                item = item.CreateToDo();
+                item.Id = _counter + 1;
+                _toDo[_counter] = item;
+                _counter++;
+            }
         }
 
         public void AddReminder()
         {
-            AbstractToDo reminder = new Reminder();
-            reminder = reminder.CreateToDo();
-            reminder.Id = _counter + 1;
-            _toDo[_counter] = reminder;
-            _counter++;
+            if (_counter == _toDo.Length)
+            {
+                Console.WriteLine($"ERROR: You cant add more than {_toDo.Length} ToDos!");
+            }
+            else
+            {
+                AbstractToDo reminder = new Reminder();
+                reminder = reminder.CreateToDo();
+                reminder.Id = _counter + 1;
+                _toDo[_counter] = reminder;
+                _counter++;
+            }
+            
         }
 
         public void AddReminderRC()
         {
-            AbstractToDo reminderRC = new ReminderRC();
-            reminderRC = reminderRC.CreateToDo();
-            reminderRC.Id = _counter + 1;
-            _toDo[_counter] = reminderRC;
-            _counter++;
+            if (_counter == _toDo.Length)
+            {
+                Console.WriteLine($"ERROR: You cant add more than {_toDo.Length} ToDos!");
+            }
+            else
+            {
+                AbstractToDo reminderRC = new ReminderRC();
+                reminderRC = reminderRC.CreateToDo();
+                reminderRC.Id = _counter + 1;
+                _toDo[_counter] = reminderRC;
+                _counter++;
+            }
+            
         }
 
         public void ShowToDoList()
@@ -59,10 +82,31 @@ namespace HW_2_4_ToDoList
             {
                 if (_toDo[i].Id == numOfToDo)
                 {
+                    //for (int y = _toDo[i + 1].Id; y < _toDo.Length; y++)
+                    //{
+                    //    _toDo[i] = _toDo[i - 1];
+                    //}
                     _toDo[i] = null;
                     break;
                 }
             }
         }
+
+        public void UpdateToDo()
+        {
+            Console.WriteLine("Write Id of ToDo you want to update:");
+            int numOfToDo = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i < _toDo.Length; i++)
+            {
+                if (_toDo[i].Id == numOfToDo)
+                {
+                    _toDo[i] = _toDo[i].CreateToDo();
+                    _toDo[i].Id = i + 1;
+                    break;
+                }
+            }
+        }
+
+        
     }
 }
