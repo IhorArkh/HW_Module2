@@ -6,6 +6,10 @@
         {
             ToDoList toDoList = new ToDoList();
             toDoList.AddReminderRC();
+            toDoList.AddItem();
+            toDoList.AddItem();
+            toDoList.ShowToDoList();
+            toDoList.DeleteToDo();
             toDoList.ShowToDoList();
         }
     }

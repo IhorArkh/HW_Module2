@@ -50,5 +50,19 @@ namespace HW_2_4_ToDoList
                 _toDo[i].ShowToDo();
             }
         }
+
+        public void DeleteToDo()
+        {
+            Console.WriteLine("Write Id of ToDo you want to delete:");
+            int numOfToDo = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i < _toDo.Length; i++)
+            {
+                if (_toDo[i].Id == numOfToDo)
+                {
+                    _toDo[i] = null;
+                    break;
+                }
+            }
+        }
     }
 }
