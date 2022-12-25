@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            ToDoList toDoList = new ToDoList();
+            toDoList.AddItem();
+            toDoList.AddItem();
+            toDoList.AddItem();
+            toDoList.AddItem();
+            Console.WriteLine();
         }
     }
 }
