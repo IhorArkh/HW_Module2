@@ -38,5 +38,17 @@ namespace HW_2_4_ToDoList
             _toDo[_counter] = reminderRC;
             _counter++;
         }
+
+        public void ShowToDoList()
+        {
+            for (int i = 0; i < _toDo.Length; i++)
+            {
+                if (_toDo[i] == null)
+                {
+                    continue;
+                }
+                _toDo[i].ShowToDo();
+            }
+        }
     }
 }

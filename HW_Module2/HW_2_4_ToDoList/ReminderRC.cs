@@ -10,7 +10,7 @@ namespace HW_2_4_ToDoList
     {
         public override AbstractToDo CreateToDo()
         {
-            Reminder reminderRC = new Reminder();
+            Reminder reminderRC = new ReminderRC();
             Console.WriteLine("Add text please:");
             reminderRC.Text = Console.ReadLine();
             Console.WriteLine("Add reminder time:");
@@ -18,6 +18,11 @@ namespace HW_2_4_ToDoList
             Console.WriteLine("Add repetition interval:");
             reminderRC.Repeat = Console.ReadLine();
             return reminderRC;
+        }
+
+        public override void ShowToDo()
+        {
+            Console.WriteLine($"ID:{Id}, Text:{Text}, Remind:{Time}, Repeat:{Repeat}");
         }
     }
 }

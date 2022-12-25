@@ -14,5 +14,6 @@ namespace HW_2_4_ToDoList
         public string Repeat { get; set; }
 
         public abstract AbstractToDo CreateToDo();
+        public abstract void ShowToDo();
     }
 }

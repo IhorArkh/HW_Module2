@@ -15,5 +15,10 @@ namespace HW_2_4_ToDoList
             item.Text = Console.ReadLine();
             return item;
         }
+
+        public override void ShowToDo()
+        {
+            Console.WriteLine($"ID:{Id}, Text:{Text}");
+        }
     }
 }

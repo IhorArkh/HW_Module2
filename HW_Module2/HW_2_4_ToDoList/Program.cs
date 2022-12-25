@@ -5,11 +5,8 @@
         static void Main(string[] args)
         {
             ToDoList toDoList = new ToDoList();
-            toDoList.AddItem();
-            toDoList.AddItem();
-            toDoList.AddItem();
-            toDoList.AddItem();
-            Console.WriteLine();
+            toDoList.AddReminderRC();
+            toDoList.ShowToDoList();
         }
     }
 }

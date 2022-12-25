@@ -17,5 +17,10 @@ namespace HW_2_4_ToDoList
             reminder.Time = Console.ReadLine();
             return reminder;
         }
+
+        public override void ShowToDo()
+        {
+            Console.WriteLine($"ID:{Id}, Text:{Text}, Remind:{Time}");
+        }
     }
 }
