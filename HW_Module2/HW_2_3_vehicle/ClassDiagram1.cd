@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HW_2_3_vehicle.AirPlanes.Airplane" Collapsed="true">
+    <Position X="6.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAIAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AirPlanes\Airplane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_2_3_vehicle.AirPlanes.PassengerPlane" Collapsed="true">
+    <Position X="7.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAABAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AirPlanes\PassengerPlane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_2_3_vehicle.AirPlanes.PrivateJet" Collapsed="true">
+    <Position X="6.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAABAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AirPlanes\PrivateJet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_2_3_vehicle.AirPlanes.RegularPlane" Collapsed="true">
+    <Position X="9" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AirPlanes\RegularPlane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_2_3_vehicle.AirPlanes.WarPlane" Collapsed="true">
+    <Position X="4.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAIAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AirPlanes\WarPlane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_2_3_vehicle.Car" Collapsed="true">
+    <Position X="13.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAABAAAAAAAAAAAAAAAAAAAAAAJAAA=</HashCode>
+      <FileName>Cars\Car.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_2_3_vehicle.F1Car" Collapsed="true">
+    <Position X="13.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAIAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cars\F1Car.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_2_3_vehicle.FamilyCar" Collapsed="true">
+    <Position X="15.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAABAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Cars\FamilyCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_2_3_vehicle.RallyCar" Collapsed="true">
+    <Position X="11.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAQBAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cars\RallyCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_2_3_vehicle.SportCar" Collapsed="true">
+    <Position X="12.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAABAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cars\SportCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_2_3_vehicle.Program" Collapsed="true">
+    <Position X="12.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_2_3_vehicle.Vehicle" Collapsed="true">
+    <Position X="12.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAQABAAEAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vehicle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HW_2_3_vehicle.Trains.CargoTrain" Collapsed="true">
+    <Position X="18" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAABAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Trains\CargoTrain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_2_3_vehicle.Trains.PassengerTrain" Collapsed="true">
+    <Position X="20.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAABAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Trains\PassengerTrain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HW_2_3_vehicle.Trains.Train" Collapsed="true">
+    <Position X="19" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAABAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Trains\Train.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
